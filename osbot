@@ -4,7 +4,7 @@ sudo apt-get -y install xubuntu-desktop vnc4server oracle-java8-installer
 vncserver
 vncserver -kill :1
 rm .vnc/xstartup
-sudo wget www.xolr.com/xstartup
+sudo wget https://raw.githubusercontent.com/rekkke/xstartup/master/xstartup
 chmod +x xstartup
 mv xstartup .vnc/
 vncserver
