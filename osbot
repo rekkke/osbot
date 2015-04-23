@@ -8,3 +8,9 @@ sudo wget https://raw.githubusercontent.com/rekkke/xstartup/master/xstartup
 chmod +x xstartup
 mv xstartup .vnc/
 vncserver
+cd Pictures
+wget http://i.imgur.com/ZEjQLBu.png
+cd Desktop
+wget https://osbot.org/mvc/get
+wget http://cdn.rsbuddy.com/live/f/loader/OSBuddy.jar?x=10
+
