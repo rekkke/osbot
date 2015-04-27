@@ -9,9 +9,6 @@ sudo wget https://raw.githubusercontent.com/rekkke/xstartup/master/xstartup
 chmod +x xstartup
 mv xstartup .vnc/
 vncserver
-cd Pictures
-wget https://tarteka.net/wp-content/uploads/2014/08/summer.png
-wget http://2.bp.blogspot.com/-pkqYaOqYSXc/UCPv2c1hQSI/AAAAAAAAAFk/A6P5fRk2ltA/s1600/simple_Desktop_wallpaper.Jpg
 cd Desktop
 mkdir Bots
 cd Bots
