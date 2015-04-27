@@ -17,6 +17,8 @@ wget https://osbot.org/mvc/get
 wget http://cdn.rsbuddy.com/live/f/loader/OSBuddy.jar?x=10
 wget https://tribot.org/bin/TRiBot_Loader.jar
 wget http://topbot.org/resources/topbot.jar
+wget http://www.powerbot.org/download/
+cd
 cd Desktop
 mkdir Wallpapers
 cd Wallpapers
