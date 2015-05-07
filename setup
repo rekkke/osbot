@@ -1,12 +1,12 @@
-sudo apt-get update
-sudo apt-get install software-properties-common python-software-properties
-sudo apt-add-repository ppa:webupd8team/java
-sudo apt-get update
-sudo apt-get -y install xubuntu-desktop vnc4server oracle-java8-installer
+apt-get update
+apt-get install software-properties-common python-software-properties
+apt-add-repository ppa:webupd8team/java
+apt-get update
+apt-get -y install xubuntu-desktop vnc4server oracle-java8-installer
 vncserver
 vncserver -kill :1
 rm .vnc/xstartup
-sudo wget https://raw.githubusercontent.com/rekkke/xstartup/master/xstartup
+wget https://raw.githubusercontent.com/rekkke/xstartup/master/xstartup
 chmod +x xstartup
 mv xstartup .vnc/
 vncserver
